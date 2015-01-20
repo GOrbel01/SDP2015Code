@@ -22,10 +22,11 @@ object aSimpleObject {
     {
       println("Bad Times....")
     }
+    println("Temp In Celcuis is: " + toCelcius(temp))
   }
 
-  def toCelcius(Double: temp): Double =
+  def toCelcius(temp : Double): Double =
   {
-    temp
+    temp.-(32.0).*(5.0./(9.0))
   }
 }

@@ -11,6 +11,6 @@ object Stormtrooper {
   {
     case Person("Luke", "Skywalker") => s"Stop you rebel scum"
     case Person("Han", "Solo") => s"Stop Solo"
-    case Person(first) => s"Move along, $first"
+//    case Person(first) => s"Move along, $first"
   }
 }
